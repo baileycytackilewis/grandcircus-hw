@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Sofia+Sans:ital,wght@1,200&display=swap');
+
+body {
+    margin: 0;
+    font-family: sans-serif
+}
+
+header {
+    background-color: #551A8B;
+    color: rgba(255,255,255,0.8);
+    display: flex;
+    justify-content: space-between;
+    padding: 2px
+}
+
+span {
+    display: flex;
+    align-items: center;
+    margin-left: .5em;
+}
+
+.nav-list {
+    list-style-type: none;
+    padding: 0;
+}
+.nav-list li {
+    display: inline;
+    margin-right: .5em;
+}
+
+a {
+    text-decoration: none;
+    color: rgba(255,255,255,0.8);
+}
+a:hover {
+    opacity: 0.7;
+}
